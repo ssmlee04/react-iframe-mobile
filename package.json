@@ -1,6 +1,6 @@
 {
   "name": "react-iframe-mobile",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "iframes with react for mobile",
   "main": "./dist/react-iframe-mobile.js",
   "dependencies": {
