@@ -1,11 +1,11 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'publish', './' ]
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'publish' ]
 2 info using npm@1.4.28
 3 info using node@v0.10.38
 4 verbose node symlink /usr/bin/node
-5 verbose publish [ './' ]
-6 verbose cache add [ './', null ]
-7 verbose cache add name=undefined spec="./" args=["./",null]
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
 8 verbose parsed url { protocol: null,
 8 verbose parsed url   slashes: null,
 8 verbose parsed url   auth: null,
@@ -15,30 +15,30 @@
 8 verbose parsed url   hash: null,
 8 verbose parsed url   search: null,
 8 verbose parsed url   query: null,
-8 verbose parsed url   pathname: './',
-8 verbose parsed url   path: './',
-8 verbose parsed url   href: './' }
-9 silly lockFile 0ee6c175- ./
-10 verbose lock ./ /home/shihminlee/.npm/0ee6c175-.lock
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /home/shihminlee/.npm/3a52ce78-.lock
 11 verbose tar pack [ '/home/shihminlee/.npm/react-iframe-mobile/1.0.0/package.tgz',
-11 verbose tar pack   './' ]
+11 verbose tar pack   '.' ]
 12 verbose tarball /home/shihminlee/.npm/react-iframe-mobile/1.0.0/package.tgz
-13 verbose folder ./
+13 verbose folder .
 14 info prepublish react-iframe-mobile@1.0.0
-15 silly lockFile 04cb2bca-tar tar://./
-16 verbose lock tar://./ /home/shihminlee/.npm/04cb2bca-tar.lock
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. /home/shihminlee/.npm/1f1177db-tar.lock
 17 silly lockFile 0178b76b--iframe-mobile-1-0-0-package-tgz tar:///home/shihminlee/.npm/react-iframe-mobile/1.0.0/package.tgz
 18 verbose lock tar:///home/shihminlee/.npm/react-iframe-mobile/1.0.0/package.tgz /home/shihminlee/.npm/0178b76b--iframe-mobile-1-0-0-package-tgz.lock
-19 silly lockFile 04cb2bca-tar tar://./
-20 silly lockFile 04cb2bca-tar tar://./
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
 21 silly lockFile 0178b76b--iframe-mobile-1-0-0-package-tgz tar:///home/shihminlee/.npm/react-iframe-mobile/1.0.0/package.tgz
 22 silly lockFile 0178b76b--iframe-mobile-1-0-0-package-tgz tar:///home/shihminlee/.npm/react-iframe-mobile/1.0.0/package.tgz
 23 silly lockFile e24d56d5-eact-iframe-mobile-1-0-0-package /home/shihminlee/.npm/react-iframe-mobile/1.0.0/package
 24 verbose lock /home/shihminlee/.npm/react-iframe-mobile/1.0.0/package /home/shihminlee/.npm/e24d56d5-eact-iframe-mobile-1-0-0-package.lock
 25 silly lockFile e24d56d5-eact-iframe-mobile-1-0-0-package /home/shihminlee/.npm/react-iframe-mobile/1.0.0/package
 26 silly lockFile e24d56d5-eact-iframe-mobile-1-0-0-package /home/shihminlee/.npm/react-iframe-mobile/1.0.0/package
-27 silly lockFile 0ee6c175- ./
-28 silly lockFile 0ee6c175- ./
+27 silly lockFile 3a52ce78- .
+28 silly lockFile 3a52ce78- .
 29 silly publish { name: 'react-iframe-mobile',
 29 silly publish   version: '1.0.0',
 29 silly publish   description: 'iframes with react for mobile',
@@ -83,34 +83,34 @@
 29 silly publish      { name: 'Sven Anders Robbestad', email: 'robbestad@gmail.com' } ],
 29 silly publish   readme: '# React IFrame\n\nSimple React iframe for your mobile.\n\n\n## Usage\n\n```\nvar Iframe = require("react-iframe");\n\n<Iframe url="http://www.clearstreet.io" />\n```\n\nes6:\n\n```\nimport Iframe from "react-iframe";\n\n<Iframe url="http://www.clearstreet.io" />\n```\n\nOptional properties width and height can be sent as either percentage (eg. \'100%\') or px (eg. \'100px\');\n\n\n## Demo\n\nDo\n\n```\nnpm install -g beefy && npm install react && npm install && npm run demo\n```\n\nTo see the iframe working with some content',
 29 silly publish   readmeFilename: 'README.md',
-29 silly publish   gitHead: '83a254fedffec036f555c861700fc75f7c4e92cf',
+29 silly publish   gitHead: '9fd2de4811068d652d0fafded101cc234f244974',
 29 silly publish   bugs: { url: 'https://github.com/svenanders/react-iframe/issues' },
 29 silly publish   _id: 'react-iframe-mobile@1.0.0',
-29 silly publish   _shasum: 'e710557ad9292157e310947ebdcad0521ec8e04f',
-29 silly publish   _from: './' }
+29 silly publish   _shasum: '578b01b2f9fdf24d248b1c7366644c7be40e8ebb',
+29 silly publish   _from: '.' }
 30 verbose request where is /react-iframe-mobile
 31 verbose request registry https://registry.npmjs.org/
-32 verbose request id ed91f52ae340fd6c
+32 verbose request id 3bb0b03675cb47c2
 33 verbose url raw /react-iframe-mobile
 34 verbose url resolving [ 'https://registry.npmjs.org/', './react-iframe-mobile' ]
 35 verbose url resolved https://registry.npmjs.org/react-iframe-mobile
 36 verbose request where is https://registry.npmjs.org/react-iframe-mobile
-37 info trying registry request attempt 1 at 13:01:11
+37 info trying registry request attempt 1 at 13:07:25
 38 http PUT https://registry.npmjs.org/react-iframe-mobile
 39 http 403 https://registry.npmjs.org/react-iframe-mobile
 40 verbose headers { 'content-type': 'application/json',
 40 verbose headers   'cache-control': 'max-age=300',
-40 verbose headers   'content-length': '95',
+40 verbose headers   'content-length': '128',
 40 verbose headers   'accept-ranges': 'bytes',
-40 verbose headers   date: 'Wed, 30 Dec 2015 05:01:13 GMT',
+40 verbose headers   date: 'Wed, 30 Dec 2015 05:07:27 GMT',
 40 verbose headers   via: '1.1 varnish',
 40 verbose headers   connection: 'keep-alive',
-40 verbose headers   'x-served-by': 'cache-hkg6820-HKG',
+40 verbose headers   'x-served-by': 'cache-hkg6827-HKG',
 40 verbose headers   'x-cache': 'MISS',
 40 verbose headers   'x-cache-hits': '0',
-40 verbose headers   'x-timer': 'S1451451672.554601,VS0,VE1117' }
+40 verbose headers   'x-timer': 'S1451452045.937334,VS0,VE1139' }
 41 error publish Failed PUT 403
-42 error Error: "You cannot publish over the previously published version 1.0.0." : react-iframe-mobile
+42 error Error: "You cannot publish over the previously published version 1.0.0. Try bumping the version to 2.0.0" : react-iframe-mobile
 42 error     at RegClient.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:308:14)
 42 error     at Request._callback (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:246:65)
 42 error     at Request.self.callback (/usr/lib/node_modules/npm/node_modules/request/request.js:236:22)
@@ -125,7 +125,7 @@
 43 error including the npm and node versions, at:
 43 error     <http://github.com/npm/npm/issues>
 44 error System Linux 3.13.0-32-generic
-45 error command "/usr/bin/node" "/usr/bin/npm" "publish" "./"
+45 error command "/usr/bin/node" "/usr/bin/npm" "publish"
 46 error cwd /home/shihminlee/Desktop/react-iframe-mobile
 47 error node -v v0.10.38
 48 error npm -v 1.4.28
