@@ -1,0 +1,52 @@
+{
+  "name": "react-iframe-mobile",
+  "version": "1.0.0",
+  "description": "iframes with react for mobile",
+  "main": "./dist/react-iframe-mobile.js",
+  "dependencies": {
+    "jquery": "^2.1.4"
+  },
+  "peerDependencies": {
+    "react": ">=0.13.x"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babel-core": "^5.8.25",
+    "babel-eslint": "^4.1.3",
+    "browserify": "^12.0.1",
+    "eslint": "^0.17.1",
+    "eslint-plugin-react": "^1.6.0",
+    "expect": "^1.13.4",
+    "jsdom": "^7.2.2",
+    "mocha": "^2.3.4",
+    "react-addons-test-utils": "^0.14.5",
+    "react-dom": "^0.14.5",
+    "reactify": "^0.15.2",
+    "uglify-js": "^2.4.20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:svenanders/react-iframe.git"
+  },
+  "homepage": "https://github.com/svenanders/react-iframe",
+  "keywords": [
+    "react",
+    "react-component",
+    "iframe",
+    "component"
+  ],
+  "author": {
+    "name": "Shih-Min Lee",
+    "email": "ssmlee04@gmail.com",
+    "url": "http://www.clearstreet.io"
+  },
+  "scripts": {
+    "demo": "./node_modules/.bin/beefy demo/index.js --open -- -t reactify",
+    "test": "mocha $npm_package_config_mocha",
+    "build": "browserify index.js | uglifyjs -cm > dist/react-iframe-mobile.min.js"
+  },
+  "config": {
+    "mocha": "--compilers js:babel/register ./tests/*.spec.js --require ./tests/setup.js"
+  },
+  "license": "ISC"
+}
