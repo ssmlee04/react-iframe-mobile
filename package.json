@@ -1,6 +1,6 @@
 {
   "name": "react-iframe-mobile",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "iframes with react for mobile",
   "main": "./dist/react-iframe-mobile.js",
   "dependencies": {
@@ -26,9 +26,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:svenanders/react-iframe.git"
+    "url": "git@github.com:ssmlee04/react-iframe-mobile.git"
   },
-  "homepage": "https://github.com/svenanders/react-iframe",
+  "homepage": "https://github.com/ssmlee04/react-iframe-mobile",
   "keywords": [
     "react",
     "react-component",
